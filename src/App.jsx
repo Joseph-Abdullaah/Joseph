@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -33,6 +34,7 @@ function App() {
             "radial-gradient(125% 125% at 50% 100%, #000000 40%, #2b0707 100%)",
         }}
       >
+        <Analytics />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
