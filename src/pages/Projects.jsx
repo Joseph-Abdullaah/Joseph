@@ -7,7 +7,8 @@ const projects = [
   {
     image: "/images/extension-img.jpg",
     title: "Browser Extension",
-    description: "Browser extension manager built with React and Zustand for state management.",
+    description:
+      "Browser extension manager built with React and Zustand for state management.",
     tags: ["React", "Javascript", "Tailwindcss", "Zustand"],
     category: "Web dev",
     liveSite: "https://browser-extensions-manager-five.vercel.app/",
@@ -34,11 +35,14 @@ const projects = [
   {
     image: "/images/faylo-img.jpg",
     title: "Faylo",
-    description: "A dark theme landing page for a fictional file storage service called Fylo.",
+    description:
+      "A dark theme landing page for a fictional file storage service called Fylo.",
     tags: ["CSS", "Javascript", "Html"],
     category: "Web dev",
-    liveSite: "https://joseph-abdullaah.github.io/fylo-dark-theme-landing-page/",
-    GitHub: "https://github.com/Joseph-Abdullaah/fylo-dark-theme-landing-page?tab=readme-ov-file",
+    liveSite:
+      "https://joseph-abdullaah.github.io/fylo-dark-theme-landing-page/",
+    GitHub:
+      "https://github.com/Joseph-Abdullaah/fylo-dark-theme-landing-page?tab=readme-ov-file",
   },
   {
     image: "/images/asci-img.png",
@@ -52,16 +56,25 @@ const projects = [
   {
     image: "/images/countries.jpg",
     title: "A rest countries api",
-    description: "A web application that displays information about countries using the REST Countries API.",
+    description:
+      "A web application that displays information about countries using the REST Countries API.",
     tags: ["API", "React", "React Router", "Tailwindcss", "Zustand"],
     category: "Web dev",
     liveSite: "",
     GitHub: "https://github.com/Joseph-Abdullaah/rest-countries-api",
-  }
+  },
+  {
+    image: "/images/quiz-app.png",
+    title: "Quiz App",
+    description: "A quiz application built with React and motion.",
+    tags: ["React", "Javascript", "Tailwindcss", "motion"],
+    category: "Fun made",
+    liveSite: "https://quiz-app-mu-drab.vercel.app/",
+    GitHub: "https://github.com/Joseph-Abdullaah/quiz-app",
+  },
 ];
 
 const categories = ["All", "Web dev", "CLI", "Fun made"];
-
 
 const staggerContainer = {
   hidden: { opacity: 0 },
@@ -92,7 +105,7 @@ function Projects() {
 
   return (
     <div className="text-white/90 container mx-auto px-4 py-16 flex flex-col items-center gap-12">
-        {/* Page Title */}
+      {/* Page Title */}
       <motion.h1
         className="text-4xl font-bold"
         initial={{ opacity: 0, y: -20 }}
