@@ -49,9 +49,18 @@ const projects = [
     liveSite: "#",
     GitHub: "https://github.com/Joseph-Abdullaah/Image-to-ASCII-code",
   },
+  {
+    image: "/images/countries.jpg",
+    title: "A rest countries api",
+    description: "A web application that displays information about countries using the REST Countries API.",
+    tags: ["API", "React", "React Router", "Tailwindcss", "Zustand"],
+    category: "Web dev",
+    liveSite: "",
+    GitHub: "https://github.com/Joseph-Abdullaah/rest-countries-api",
+  }
 ];
 
-const categories = ["All", "Web dev", "CLI", "Animations"];
+const categories = ["All", "Web dev", "CLI", "Fun made"];
 
 
 const staggerContainer = {
